@@ -3,7 +3,7 @@ from OCC.Core.STEPControl import STEPControl_Reader
 from OCC.Core.IFSelect import IFSelect_RetDone, IFSelect_ItemsByEntity
 from OCC.Display.SimpleGui import init_display
 
-path_to_file = r'C:\Users\Karan\Downloads\STEP\step_files\TRIQBRIQ_300_Balken_1.STEP'
+path_to_file = 'example.STEP'
 step_reader = STEPControl_Reader()
 status = step_reader.ReadFile(path_to_file)
 
